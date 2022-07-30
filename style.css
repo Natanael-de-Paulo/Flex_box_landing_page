@@ -49,30 +49,30 @@ img {
 }
 
 .flex-container {
-  max-width: 992px;
+  max-width: 1120px;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-header {
+nav {
   background: #122a57;
   display: flex;
   justify-content: center;
 }
 
-header nav {
+nav .wrapper {
   height: 6.25em;
   padding: 0 2em;
   color: #fff;
+  justify-content: space-between;
 }
 
-nav .logo {
+.wrapper .logo {
   font-size: 2em;
 }
 
 .menu {
-  display: none;
   max-width: 15.5em;
   width: 100%;
   display: flex;
@@ -90,8 +90,14 @@ nav .logo {
   color: #fff;
 }
 
+.open-menu,
+.close-menu {
+  display: none;
+}
+
 main {
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -245,7 +251,6 @@ main {
 .wrapper .item-plano h3 {
   text-align: center;
   font-size: 1.6em;
-
   width: 100%;
   display: flex;
   flex-direction: column;
