@@ -1,6 +1,17 @@
 @media (min-width: 668px) {
+  #home {
+    justify-content: space-between;
+  }
+
+  #home div {
+    flex: none;
+  }
   #services .list-services {
     flex-direction: row;
+  }
+
+  #about div {
+    flex: 1;
   }
 
   #planos .content .wrapper {

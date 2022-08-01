@@ -129,10 +129,10 @@ main {
   gap: 1em;
 }
 
-#about .wrapper {
+#about .wrapper-text {
   justify-content: space-between;
   align-items: center;
-  padding: 5em 2em;
+  padding: 5em 0;
 }
 
 #about .wrapper-text h2 {
